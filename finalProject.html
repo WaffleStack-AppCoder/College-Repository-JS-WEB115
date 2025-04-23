@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WEB-115 Final Project</title>
+	<link rel="stylesheet" href="finalProject.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar">
+			<ul>
+				<a href=""><img id="logo" src="Untitled design.png" alt="Logo Of Heart Peach"></a>
+	
+				<li class="li-nav-classes"><a href="#">Weekly Planner</a></li>
+				<li class="li-nav-classes"><a href="#">Build Your Meal Plan</a></li>
+				<li class="li-nav-classes"><a href="#">About</a></li>
+				<li class="li-nav-classes"><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<main class="main">
+			<h3><i>Build Your Plan <br>
+			Tailored Just <br>
+			For You.</i></h3>
+		</main>
+	</header>
+
+
+	<section class="section-one">
+		<h2>DietFix's Main Plans:</h2>
+
+		<p class="para">Interested in our special meal plans? Our meal were crafted with patience, love, care and a honornable work ethic</p>
+
+
+		<ul class="meal-plans">
+			<img class="img-meals-class" src="https://img.freepik.com/free-psd/close-up-appetizing-cheese-sandwich_23-2151837119.jpg?ga=GA1.1.980531451.1739142205&semt=ais_hybrid&w=740" alt="Not here">
+			
+			<div class="li-class-meal">
+			<h6 class="meal-plan-title">30-Day Free Trial:</h6>
+			<li>Only Appiterzieerz are Free. Choose from our appertizer menu. <a href="#">Apptizers</a></li>
+			<li>Cancel whenever you feel like it.</li>
+			</div>
+		</ul>
+
+		<ul class="meal-plans">
+			
+			<div class="li-class-meal">
+				<h6 class="meal-plan-title">Basic:</h6>
+			<li>Apptixers, Meats, Veggtables, and drinks are available.</li>
+			<li>Weekly: $11.99</li>
+			<li>Monthly: $25.99 </li>
+			<li>Anually: $49.99</li>
+			
+		</div>
+		<img class="img-meals-class" src="https://img.freepik.com/free-photo/smoked-sausage-minestrone-tubetti-pasta-traditional-italian-soup-with-pasta-seasonal-vegetables_127032-3163.jpg?ga=GA1.1.980531451.1739142205&semt=ais_hybrid&w=740" alt="Not here">
+		</ul>
+
+		<ul class="meal-plans">
+			
+			
+			<div class="li-class-meal">
+				<h6 class="meal-plan-title">Premium:</h6>
+			<li>Seafood, Meats, Veggtables, Dairy, Breads, and desserts are available to premuim members.</li>
+			<li>Desserts are available! Choose Whatever you want from the indulgence menu: <a href="#">Indulgdence</a></li>
+			<li>Get Notified When new meals, desserts, and drinks are dropped</li>
+			<li>Weekly: $19.99</li>
+			<li>Monthly: $41.99</li>
+			<li>Anually: $74.99</li>
+			</div>
+			<img class="img-meals-class" src="https://img.freepik.com/free-photo/mixed-grilled-seafood-steak-with-salmon-prawn_74190-6270.jpg?ga=GA1.1.980531451.1739142205&semt=ais_hybrid&w=740" alt="Not here">
+		</ul>
+	</section>
+
+
+
+	<section class="section-two">
+		<section class="banner">
+			<h2>NAOMI SIDBURY</h2>
+			<br>
+			<h2>WEB MARKUP & SCRIPTING 115.0006</h2>
+
+			<h3>Register Your Pesonal Meal Plan:</h3>
+			<p class="para">Weekly Planner: Monday - Sunday</p>
+		</section>
+
+
+	   <form action="submit" class="form-box">
+			<label for="" class="label" aria-required="true" required>Name</label>
+			<input id="name" type="text">
+			<br>
+			<label for="" class="label" aria-required="true" required>Email</label>
+			<input id="email" type="text">
+			<br>
+			<label for="" class="label" aria-required="true" required>Goal</label>
+			<input id="goal" type="text">
+			<br>
+			<br>
+			<br>
+			<label for="" class="label" aria-required="true" required>Breakfast</label>
+			<input id="breakfast" type="text">
+			<br>
+			<label for="" class="label" aria-required="true" required>Snack</label>
+			<input id="Snack-one" type="text">
+			<br>
+			<label for="" class="label" aria-required="true" required>Lunch</label>
+			<input id="lunch" type="text">
+			<br>
+			<label for="" class="label" aria-required="true" required>Snack</label>
+			<input id="Snack-two" type="text">
+			<br>
+			<label for="" class="label" aria-required="true" required>Dinner</label>
+			<input id="dinner" type="text">
+			<br>
+			
+
+	   </form>
+
+	   <button type=""><a href="submit-meal.html">Submit</a></button>
+
+
+	   <button onclick="clear()">Clear</button>
+
+	   <p id="info-form"></p>
+
+	   <div id="mealPlanOutput"></div>
+	          <button id="printButton" onclick="printMealPlan()">Print Meal Plan</button>
+
+
+	</section>
+
+	<section class="section-three">
+		<h3>About Us:</h3>
+
+		<p class="para">DietFix is a Fitness company that tailor meal plans for struggling gym rats looking to find their perfect calorie defict. <br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi repellendus harum distinctio dolorem sapiente quasi voluptatem! Ab, magni? Architecto dicta sint quaerat id, in numquam amet inventore voluptas nesciunt, ipsam reprehenderit nam praesentium mollitia eum nihil! Velit, sit!</p>
+
+		<p class="para">Look at some pf the gym rats we helped!</p>
+
+		<img src="" alt="" id="lol">
+
+	</section>
+
+	<footer>
+		<p class="para">&copy; All Trademarks Google, Facebook etc.</p>
+	</footer>
+</body>
+<script src="projectJS.js">
+	
+</script>
+</html>
